@@ -41,7 +41,7 @@
 - name: Create and start container
   docker_container:
     name: calibre
-    image: lscr.io/linuxserver/calibre
+    image: lscr.io/linuxserver/calibre:6.4.0
     pull: yes
     env:
       TZ: "{{ tz }}"
